@@ -41,7 +41,7 @@ a:hover{
     background-color: blue;
 }
 
-#sobre {
+#aprendizado {
     padding: 0px 10px 1px; 
 }
 
@@ -51,4 +51,14 @@ a:hover{
 
 #licoes {
     padding: 0px 10px 1px;
+}
+
+#procurar {
+    text-align: center;
+}
+
+#instagram {
+    position: relative;
+    left: 50%;
+    top: 10px;
 }
