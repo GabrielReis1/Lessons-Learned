@@ -26,5 +26,29 @@ body {
 }
 
 #minha_foto {
-    margin-top: 100px;
+    margin-top: 110px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+#sobre {
+    padding: 0px 10px 1px; 
+}
+
+#hobbi {
+    padding: 0px 10px 1px;
+}
+
+#licoes {
+    padding: 0px 10px 1px;
 }
