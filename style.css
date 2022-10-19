@@ -62,3 +62,10 @@ a:hover{
     left: 50%;
     top: 10px;
 }
+
+#licoes_a_aprender {
+    position: relative;
+    left: 250px;
+    top: -205px;
+}
+
