@@ -6,3 +6,8 @@ body {
     position: fixed;
     top: 0;
 }
+
+footer {
+    background-color: blue;
+    padding: 35px;
+}
