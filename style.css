@@ -3,11 +3,12 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
     top: 0;
+    background-color: lightskyblue;
+    padding: 25px;
 }
 
 footer {
-    background-color: blue;
-    padding: 35px;
+    background-color: lightskyblue;
+    padding: 20px;
 }
