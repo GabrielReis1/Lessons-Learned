@@ -8,7 +8,12 @@ body {
 
 #cabecalho {
     background-color: lightskyblue;
+    position: fixed;
     padding: 25px;
+}
+
+#nave_menu{
+    background-color: white;
 }
 
 #rodape {
