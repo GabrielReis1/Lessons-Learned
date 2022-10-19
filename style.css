@@ -10,13 +10,21 @@ body {
     background-color: lightskyblue;
     position: fixed;
     padding: 25px;
+    width: 100%;
 }
 
 #nave_menu{
     background-color: white;
+    width: 30%;
+    position: relative;
+    margin-top: 10px;
 }
 
 #rodape {
     background-color: lightskyblue;
     padding: 20px;
+}
+
+#minha_foto {
+    margin-top: 100px;
 }
