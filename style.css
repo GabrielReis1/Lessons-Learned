@@ -1,70 +1,88 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    background-color: lightskyblue;
-    position: fixed;
-    padding: 25px;
-    width: 100%;
+  background-color: lightskyblue;
+  position: fixed;
+  padding: 25px;
+  width: 100%;
+  z-index: 1;
 }
 
-#nave_menu{
-    background-color: white;
-    width: 30%;
-    position: relative;
-    margin-top: 10px;
+#nave_menu {
+  background-color: white;
+  width: 30%;
+  position: relative;
+  margin-top: 10px;
 }
 
 #rodape {
-    background-color: lightskyblue;
-    padding: 20px;
+  background-color: lightskyblue;
+  padding: 20px;
 }
 
 #minha_foto {
-    margin-top: 110px;
-    text-decoration: none;
-    padding: 10px;
-    background-color: lightskyblue;
+  margin-top: 110px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: lightskyblue;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-nav a:hover{
-    background-color: blue;
+nav a:hover {
+  background-color: blue;
 }
 
 #aprendizado {
-    padding: 0px 10px 1px; 
+  padding: 0px 10px 1px;
 }
 
 #hobbi {
-    padding: 0px 10px 1px;
+  padding: 0px 10px 1px;
 }
 
 #licoes {
-    padding: 0px 10px 1px;
+  padding: 0px 10px 1px;
 }
 
 #procurar {
-    text-align: center;
+  text-align: center;
 }
 
 #instagram {
-    position: relative;
-    left: 50%;
-    top: 10px;
+  position: relative;
+  left: 50%;
+  top: 10px;
 }
 
 #licoes_a_aprender {
-    position: relative;
-    left: 250px;
-    top: -205px;
+  position: relative;
+  left: 250px;
+  top: -205px;
+}
+
+#sobre_mim {
+  position: relative;
+  max-width: 300px;
+  padding: 10px;
+  border: 10px solid lightskyblue;
+  left: 345px;
+  top: -490px;
+}
+
+#meu_aprendizado {
+  position: relative;
+  max-width: 300px;
+  padding: 10px;
+  border: 10px solid lightskyblue;
+  top: -198px;
 }
