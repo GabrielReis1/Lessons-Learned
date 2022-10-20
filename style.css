@@ -6,6 +6,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+main {
+  max-height: 900px;
+}
+
 #cabecalho {
   background-color: lightskyblue;
   position: fixed;
@@ -52,6 +56,7 @@ nav a:hover {
 
 #licoes {
   padding: 0px 10px 1px;
+  
 }
 
 #procurar {
@@ -67,22 +72,27 @@ nav a:hover {
 #licoes_a_aprender {
   position: relative;
   left: 250px;
-  top: -205px;
+  top: -235px;
 }
 
 #sobre_mim {
   position: relative;
-  max-width: 300px;
+  max-width: 500px;
   padding: 10px;
   border: 10px solid lightskyblue;
-  left: 345px;
-  top: -490px;
+  left: 650px;
+  top: -140px;
 }
 
 #meu_aprendizado {
   position: relative;
-  max-width: 300px;
+  max-width: 600px;
   padding: 10px;
   border: 10px solid lightskyblue;
-  top: -198px;
+  top: -200px;
+  margin-top: 50px;
+}
+
+ol, ul {
+  margin-top: 30px;
 }
