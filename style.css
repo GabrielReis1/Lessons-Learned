@@ -28,7 +28,6 @@ main {
 
 #rodape {
   background-color: lightskyblue;
-  padding: 20px;
 }
 
 #minha_foto {
@@ -57,7 +56,7 @@ nav a:hover {
 
 #licoes {
   padding: 0px 10px 1px;
-  
+
 }
 
 #procurar {
@@ -66,9 +65,7 @@ nav a:hover {
 
 #instagram {
   position: relative;
-  left: 910px;
-  top: 0px;
-  margin: 10px;
+  left: 50%;
 }
 
 #licoes_a_aprender {
@@ -95,7 +92,8 @@ nav a:hover {
   margin-top: 50px;
 }
 
-ol, ul {
+ol,
+ul {
   margin-top: 30px;
 }
 
@@ -111,10 +109,11 @@ table {
   left: 1400px;
   background-color: lightskyblue;
   border: 5px solid black;
-  
+
 }
 
-th, td {
+th,
+td {
   border: 2px solid black;
   max-width: 150px;
   text-align: center;
