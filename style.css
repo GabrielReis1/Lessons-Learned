@@ -7,10 +7,11 @@ body {
 }
 
 main {
-  max-height: 900px;
+  max-height: 700px;
 }
 
 #cabecalho {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: lightskyblue;
   position: fixed;
   padding: 25px;
@@ -65,8 +66,9 @@ nav a:hover {
 
 #instagram {
   position: relative;
-  left: 50%;
-  top: 10px;
+  left: 910px;
+  top: 0px;
+  margin: 10px;
 }
 
 #licoes_a_aprender {
@@ -81,7 +83,7 @@ nav a:hover {
   padding: 10px;
   border: 10px solid lightskyblue;
   left: 650px;
-  top: -140px;
+  top: -240px;
 }
 
 #meu_aprendizado {
@@ -89,10 +91,41 @@ nav a:hover {
   max-width: 600px;
   padding: 10px;
   border: 10px solid lightskyblue;
-  top: -200px;
+  top: -500px;
   margin-top: 50px;
 }
 
 ol, ul {
   margin-top: 30px;
+}
+
+#lista {
+  position: relative;
+  left: 350px;
+  top: -300px;
+}
+
+table {
+  position: relative;
+  top: -1000px;
+  left: 1400px;
+  background-color: lightskyblue;
+  border: 5px solid black;
+  
+}
+
+th, td {
+  border: 2px solid black;
+  max-width: 150px;
+  text-align: center;
+}
+
+#Jogos {
+  text-align: center;
+  position: relative;
+  top: -1010px;
+  left: 1450px;
+  background-color: lightskyblue;
+  width: 200px;
+  padding: 10px;
 }
